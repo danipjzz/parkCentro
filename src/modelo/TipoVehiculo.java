@@ -1,4 +1,8 @@
 package modelo;
 
-public class TipoVehiculo {
+public enum TipoVehiculo {
+    CARRO,
+    MOTO
 }
+
+
