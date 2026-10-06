@@ -1,4 +1,8 @@
 package modelo;
 
-public class ParqueaderoException {
+public class ParqueaderoException extends Exception {
+
+    public ParqueaderoException(String mensaje){
+        super(mensaje);
+    }
 }
