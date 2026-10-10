@@ -1,5 +1,6 @@
 package vista;
 
+<<<<<<< HEAD
 import java.awt.*;
 import java.util.List;
 import javax.swing.*;
@@ -122,3 +123,7 @@ public class VistaSwing extends JFrame implements IVistaParqueadero {
     public JButton getBtnListar() { return btnListar; }
     public JButton getBtnReporte() { return btnReporte; }
 }
+=======
+public class VistaSwing {
+}
+>>>>>>> origin/main

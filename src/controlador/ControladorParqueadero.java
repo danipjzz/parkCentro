@@ -1,5 +1,6 @@
 package controlador;
 
+<<<<<<< HEAD
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Scanner;
@@ -132,3 +133,7 @@ public class ControladorParqueadero {
         vista.mostrarReporte(reporte);
     }
 }
+=======
+public class ControladorParqueadero {
+}
+>>>>>>> origin/main

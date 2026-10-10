@@ -1,5 +1,6 @@
 package vista;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Scanner;
 import modelo.Registro;
@@ -98,3 +99,7 @@ public class VistaConsola implements IVistaParqueadero {
         // En consola la interacción es dirigida por el ciclo principal en el controlador.
     }
 }
+=======
+public class VistaConsola {
+}
+>>>>>>> origin/main

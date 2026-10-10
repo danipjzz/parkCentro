@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import controlador.ControladorParqueadero;
 import modelo.Parqueadero;
 import vista.IVistaParqueadero;
@@ -17,4 +18,8 @@ public class Main {
         ControladorParqueadero controlador = new ControladorParqueadero(modelo, vista);
         controlador.iniciar();
     }
+=======
+public static void main(String[] args) {
+
+>>>>>>> origin/main
 }

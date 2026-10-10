@@ -1,5 +1,6 @@
 package vista;
 
+<<<<<<< HEAD
 import java.util.List;
 import modelo.Registro;
 import modelo.Reporte;
@@ -16,3 +17,7 @@ public interface IVistaParqueadero {
     void mostrarReporte(Reporte reporte);
     void iniciar();
 }
+=======
+public class IVistaParqueadero {
+}
+>>>>>>> origin/main
