@@ -9,6 +9,28 @@ public class CalculadoraTarifa {
         Vehiculo vehiculo = registro.getVehiculo();
         LocalDateTime horaEntrada = registro.getHoraEntrada();
         LocalDateTime horaSalida = registro.getHoraSalida();
+<<<<<<< HEAD
+
+        if (horaSalida == null) {
+            return 0;
+        }
+
+        Duration duracion = Duration.between(horaEntrada, horaSalida);
+        long minutos = duracion.toMinutes();
+
+        if (minutos <= 5) {
+            return 0;
+        }
+
+        if (vehiculo.getTipo() == TipoVehiculo.CARRO) {
+            double precio = (minutos - 5) * 130;
+            return Math.min(precio, 45000);
+        } else {
+            double precio = (minutos - 5) * 90;
+            return Math.min(precio, 20000);
+        }
+    }
+=======
         Duration duracion = Duration.between(horaEntrada, horaSalida);
         long minutos = duracion.toMinutes();
         double precio = 0;
@@ -31,4 +53,5 @@ public class CalculadoraTarifa {
            }
            }
         }
+>>>>>>> origin/main
 }
